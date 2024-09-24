@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XO-XO</title>
+  <link rel="stylesheet" href="xoxo-style.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+  <div class="container">
+     <h1>
+        <span style="color: #DCBF3F;font-size:50px;font-family: Fredoka One;">tic.</span>
+        <span style="color: #72CFF9;font-size:50px;font-family: Fredoka One;">tac.</span>
+        <span style="color: #DCBF3F;font-size:50px;font-family: Fredoka One;">toe.</span>
+        </h1><br>
+    
+    <div id="scorecard">
+      <h4 id="message" style="color:#fff">Player X's turn</h4><br>
+      <h5 style="color:#fff">Player X: <span id="scoreX">0</span></h5><br>
+      <h5 style="color:#fff">Player O: <span id="scoreO">0</span></h5><br>
+    </div>
+    <div id="board">
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+    <button id="restartButton">Restart Game</button>
+    <button id="startButton">Start New Game</button>
+  </div>
+
+  <script src="xoxo-script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
